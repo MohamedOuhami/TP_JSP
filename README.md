@@ -30,11 +30,4 @@ Pour déployer cette application sur votre propre serveur, suivez les étapes su
 4. Compilez et exécutez l'application avec un serveur Java compatible.
 
 ## Auteur
-Ce projet a été développé par [Votre Nom].
-
-## Licence
-Ce projet est sous licence MIT. Consultez le fichier LICENSE pour plus d'informations.
-
----
-
-**Note :** Assurez-vous de remplacer les noms de fichiers des captures d'écran (`login.png`, `signup.png`, `logout.png`) par les noms réels de vos fichiers d'images. Vous pouvez ajouter les images en les téléchargeant dans le même répertoire que ce README et en les référençant comme indiqué dans les exemples.
+Ce projet a été développé par Mohamed OUHAMI.
