@@ -89,9 +89,11 @@ public class AuthController extends HttpServlet {
             String randomNumber = Integer.toString(random.nextInt(40000 - 10000 + 1) + 10000);
 
             // Send the random number by email
-            String recipient = "mohamed.ouhami2001@gmail.com";
-            String subject = "test sendMailer";
-            String messageBody = randomNumber;
+            HttpSession session = req.getSession();
+            
+            String recipient = session.getAttribute("reset_login").toString();
+            String subject = "Password Recovery";
+            String messageBody = "Your password recovery code is " + randomNumber;
 
             SendMailTLS.sendEmail(recipient, subject, messageBody);
             req.setAttribute("code", randomNumber);
