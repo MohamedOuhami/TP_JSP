@@ -8,19 +8,19 @@ Ceci est une application web Java simple pour l'authentification des utilisateur
 - Sur la page de connexion, les utilisateurs existants peuvent saisir leur nom d'utilisateur et leur mot de passe.
 - Une fois connectés avec succès, ils accèdent à leur espace personnel.
 
-![Capture d'écran de la Page de Connexion](screenshots/login.png)
+![Capture d'écran de la Page de Connexion](images/signin.png)
 
 ### 2. Page d'Inscription
 - Les nouveaux utilisateurs peuvent s'inscrire en fournissant leur nom, prénom, nom d'utilisateur et mot de passe.
 - Une fois inscrits avec succès, ils sont redirigés vers la page de connexion pour se connecter.
 
-![Capture d'écran de la Page d'Inscription](screenshots/signup.png)
+![Capture d'écran de la Page d'Inscription](images/signup.png)
 
 ### 3. Déconnexion
 - Les utilisateurs connectés ont la possibilité de se déconnecter de leur session.
 - Après la déconnexion, ils sont redirigés vers la page de connexion.
 
-![Capture d'écran de la Page de Déconnexion](screenshots/logout.png)
+![Capture d'écran de la Page de Déconnexion](images/logout.png)
 
 ## Configuration et Installation
 Pour déployer cette application sur votre propre serveur, suivez les étapes suivantes :
