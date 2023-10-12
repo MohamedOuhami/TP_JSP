@@ -19,6 +19,7 @@ Ceci est une application web Java simple pour l'authentification des utilisateur
 ### 3. Déconnexion
 - Les utilisateurs connectés ont la possibilité de se déconnecter de leur session.
 - Après la déconnexion, ils sont redirigés vers la page de connexion.
+- Lorsque l'utilisateur tente de se connecter après s'être déconnecté, il sera redirigé vers l'espace utilisateur s'il était toujours connecté. Si non, il verra la page de connexion.
 
    ![Capture d'écran de la Page de Déconnexion](images/panel.png)
 
@@ -45,4 +46,3 @@ Ce projet a été développé par Mohamed OUHAMI.
 ## Licence
 Ce projet est sous licence MIT. Consultez le fichier LICENSE pour plus d'informations.
 
-Lorsque l'utilisateur tente de se connecter après s'être déconnecté, il sera redirigé vers l'espace utilisateur s'il était toujours connecté. Si non, il verra la page de connexion.
